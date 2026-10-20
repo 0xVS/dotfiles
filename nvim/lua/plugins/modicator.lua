@@ -1,5 +1,5 @@
 return {
         {
-                "mawkler/modicator.nvim", opts = {}
+                "mawkler/modicator.nvim"
         },
 }

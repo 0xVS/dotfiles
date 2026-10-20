@@ -1,5 +1,5 @@
 return {
         {
-                "abecodes/tabout.nvim", opts = {}
+                "abecodes/tabout.nvim"
         },
 }

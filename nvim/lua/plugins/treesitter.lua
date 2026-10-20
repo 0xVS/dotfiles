@@ -2,9 +2,6 @@ return {
         -- treesitter for smart indent
         {
             "nvim-treesitter/nvim-treesitter",
-            opts = {
-                indent = { enabled = true }, 
-            },
         },
         
         {

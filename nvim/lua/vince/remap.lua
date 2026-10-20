@@ -1,11 +1,13 @@
--- opens file tree
--- vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+local function toggle_dired()
+    if vim.bo.filetype == "dired" then
+        vim.cmd("buffer #")
+    else
+        vim.cmd("Dired $cwd")
+    end
+end
 
+vim.keymap.set("n", "<leader>e", toggle_dired)
 
--- opens neo-tree
--- vim.keymap.set("n", "<leader>pp", "<Cmd>NvimTreeToggle<CR>")
-vim.keymap.set("n", "<leader>e", "<cmd>Explore<cr>")
-----  vim.keymap.set('n', '?', api.tree.toggle_help, opts('Help'))
 
 -- uses yank for system clipboard to paste outside of editor
 vim.keymap.set("n", "<leader>y", "\"+y")
