@@ -4,7 +4,7 @@ vim.opt.relativenumber = true
 
 vim.opt.autoread = true
 vim.opt.signcolumn = "yes"
-
+vim.opt.termguicolors = true
 -- settings for 4 spaced indenting
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
