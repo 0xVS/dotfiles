@@ -1,0 +1,80 @@
+// {
+//   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+//   "logo": {
+//     "source": "~/.config/fastfetch/no_windows7.png",
+//     "type": "chafa",
+//     "chafa": {
+//       "symbols": "ascii",
+//       "fgOnly": true
+//     }
+//   },
+//   "display": {
+//     "color": {
+//       "keys": "red",      // Ändert die Farbe der Beschreibungen (z. B. "OS:", "Shell:")
+//       "title": ""   // Ändert die Farbe deines Benutzernamens ganz oben (vince@archlinux)
+//     }
+//     // "separator": " ➜ "    // Optional: Ändert den Doppelpunkt zu einem coolen Pfeil oder custom Zeichen
+//   },
+//   "modules": [
+//     "title",
+//     "separator",
+//     "os",
+//     "host",
+//     "uptime",
+//     "packages",
+//     "shell",
+//     "de",
+//     "wm",
+//     "font",
+//     "terminal",
+//     "terminalfont",
+//     "cpu",
+//     "gpu",
+//     "memory",
+//     "swap",
+//     "disk",
+//     "localip",
+//     "break",
+//     "colors"
+//   ]
+// }
+
+{
+  "$schema": "https://github.com",
+  "logo": {
+    "source": "~/.config/fastfetch/no_windows7.png",
+    "type": "chafa",
+    "chafa": {
+      "symbols": "ascii",
+      "fgOnly": true
+    }
+  },
+  "display": {
+    "color": {
+      "title": "white"
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    { "type": "os", "keyColor": "red" },
+    { "type": "host", "keyColor": "red" },
+    { "type": "uptime", "keyColor": "red" },
+    { "type": "packages", "keyColor": "red" },
+    { "type": "shell", "keyColor": "green" },
+    { "type": "de", "keyColor": "green" },
+    { "type": "wm", "keyColor": "green" },
+    { "type": "font", "keyColor": "green" },
+    { "type": "terminal", "keyColor": "blue" },
+    { "type": "terminalfont", "keyColor": "blue" },
+    { "type": "cpu", "keyColor": "blue" },
+    { "type": "gpu", "keyColor": "blue" },
+    { "type": "memory", "keyColor": "yellow" },
+    { "type": "swap", "keyColor": "yellow" },
+    { "type": "disk", "keyColor": "yellow" },
+    { "type": "localip", "keyColor": "yellow" },
+    "break",
+    "colors"
+  ]
+}
+
