@@ -27,3 +27,5 @@ vim.g.mapleader = " "
 -- optionally enable 24-bit colour
 vim.opt.termguicolors = true
 
+vim.opt.guicursor = "n-v-c-i-ci-ve:block-Cursor,r-cr:hor20,o:hor50"
+
