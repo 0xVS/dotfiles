@@ -42,7 +42,7 @@
 {
   "$schema": "https://github.com",
   "logo": {
-    "source": "~/.config/fastfetch/no_windows7.png",
+    "source": "~/.config/fastfetch/no_windows_tilted.png",
     "type": "chafa",
     "chafa": {
       "symbols": "ascii",
