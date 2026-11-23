@@ -1,0 +1,8 @@
+# Editor/portal temp files that sometimes land in app config dirs
+.xdp-*
+*.pcsave.tmp-*
+
+# Local backups
+*.bak
+*.bak-*
+settings_backup.json
