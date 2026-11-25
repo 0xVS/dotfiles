@@ -36,15 +36,6 @@
     },
     "tab_size": 4,
     "hard_tabs": false,
-    "context_servers": {
-        "Neon": {
-            "type": "http",
-            "url": "https://mcp.neon.tech/mcp",
-            "headers": {
-                "Authorization": "Bearer napi_ido7i6o9wcqtz6owwu6y7vzy37om05103cplxue4wpjn3wgcu0zn1h7i64ksebgz",
-            },
-        },
-    },
     // In settings.json
     "lsp": {
         "tinymist": {
